@@ -1,0 +1,97 @@
+.page-details {
+  .store-gallery {
+    margin-top: 20px;
+    img {
+      border-radius: 10px;
+    }
+
+    .thumbnail-image {
+      margin-bottom: 20px;
+      border: 2px solid transparent;
+
+      &hover,
+      &.active {
+        border: 2px solid #ff7158;
+      }
+    }
+  }
+
+  h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    /* identical to box height */
+
+    color: #0c0d36;
+  }
+
+  .store-heading {
+    margin-bottom: 10px;
+
+    h1 {
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 36px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      /* identical to box height */
+
+      color: #0c0d36;
+    }
+
+    .owner {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      /* identical to box height */
+
+      color: #979797;
+    }
+    .price {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      /* identical to box height */
+
+      color: #ff7158;
+    }
+  }
+  .store-description {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+
+    color: #525252;
+  }
+
+  .store-review {
+    .media {
+      img {
+        max-width: 50px;
+      }
+    }
+    .media-body {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 180%;
+      /* or 29px */
+
+      color: #525252;
+      margin-bottom: 10px;
+    }
+
+    h5 {
+      margin-top: 0px;
+      width: 540px;
+      height: 29px;
+      left: 172px;
+      top: 1019px;
+    }
+  }
+}
