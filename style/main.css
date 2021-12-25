@@ -10973,7 +10973,7 @@ footer p {
 }
 
 .card {
-  background: #000066;
+  background: red;
   -webkit-box-shadow: 8px 4px 15px #000099;
           box-shadow: 8px 4px 15px #000099;
   border-radius: 8px;
